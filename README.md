@@ -21,22 +21,29 @@ A simple web application built with Rust, Actix-web, and Tera templates that all
 
 1. Clone the repository:
 
-TODO:
-/////////////
+```bash
+git clone https://github.com/warathepj/rust-structs.git
+cd rust-structs
+```
 
-````bashgit clone <repository-url>
-cd person_app```
 2. Build the project:
-```bashcargo build --release
-````
+
+```bash
+cargo build --release
+```
 
 ## Running the Application
 
-1. Start the server:`bash
-cargo run`
+1. Start the server:
+
+```bash
+cargo run
+```
+
 2. Open your web browser and navigate to:
 
-```http://localhost:8080
+```
+http://localhost:8080
 
 ```
 
@@ -51,11 +58,9 @@ cargo run`
 ## Dependencies
 - actix-web (4.0): Web framework
 - actix-files (0.6): Static file serving- tera (1.17): Template engine
-- serde: Serialization framework- serde_json: JSON support
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)5. Open a Pull Request
+- serde: Serialization framework
+- serde_json: JSON support
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
